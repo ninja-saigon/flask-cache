@@ -19,7 +19,7 @@ setup(
     description='Adds cache support to your Flask application',
     long_description=__doc__,
     packages=[
-        'flask_cacheex',
+        'flask_cache',
     ],
     zip_safe=False,
     platforms='any',
