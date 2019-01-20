@@ -10,7 +10,7 @@ Adds cache support to your Flask application
 from setuptools import setup
 
 setup(
-    name='Flask-Cache',
+    name='Flask-CacheEx',
     version='0.13',
     url='http://github.com/thadeusb/flask-cache',
     license='BSD',
@@ -19,7 +19,7 @@ setup(
     description='Adds cache support to your Flask application',
     long_description=__doc__,
     packages=[
-        'flask_cache',
+        'flask_cacheex',
     ],
     zip_safe=False,
     platforms='any',
