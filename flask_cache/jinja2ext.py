@@ -30,7 +30,13 @@ Example:
 
 from jinja2 import nodes
 from jinja2.ext import Extension
-from flask.ext.cache import make_template_fragment_key
+
+from ._compat import PY2
+
+if PY2:
+    from flask.ext.cache import make_template_fragment_key
+else:
+    from flask_cache import make_template_fragment_key
 
 JINJA_CACHE_ATTR_NAME = '_template_fragment_cache'
 
