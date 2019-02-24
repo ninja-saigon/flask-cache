@@ -12,7 +12,7 @@ from setuptools import setup
 setup(
     name='Flask-CacheEx',
     version='0.13',
-    url='http://github.com/thadeusb/flask-cache',
+    url='https://github.com/ninja-saigon/flask-cache',
     license='BSD',
     author='Thadeus Burgess',
     author_email='thadeusb@thadeusb.com',
